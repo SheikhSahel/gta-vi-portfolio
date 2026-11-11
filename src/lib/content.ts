@@ -1,0 +1,90 @@
+export const SITE = {
+  name: "Sheikh Sahel",
+  title: "FRONT-END WEB DEVELOPER",
+  subtitle: "BUILDING FAST, RESPONSIVE, HUMAN-CENTERED DIGITAL EXPERIENCES.",
+  tagline: "From Dhaka to the digital fast lane — thoughtful interfaces, production-ready engineering.",
+  location: "Bangladesh / Remote Worldwide",
+  email: "sheikhsahel513@gmail.com",
+  gmail: "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sheikhsahel513%40gmail.com",
+  phone: "+880 1540 2719",
+  github: "https://github.com/SheikhSahel",
+  facebook: "https://www.facebook.com/sk.sahel.23/",
+  cv: "/Sheikh-Sahel-CV.pdf",
+};
+
+export const SKILLS = {
+  languages: ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3"],
+  frameworks: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "GSAP"],
+  tooling: ["Git", "Webpack", "Vite", "Docker", "Figma"],
+  libraries: ["Redux Toolkit", "Zustand", "React Query", "Axios", "Three.js"],
+};
+
+export const PROJECTS = [
+  {
+    id: "medpulse",
+    title: "MedPulse",
+    description: "A smart hospital operations dashboard focused on real-time workflows, data clarity, and accessible healthcare tooling.",
+    image: "/projects/neon-heist.svg",
+    tech: ["Next.js", "TypeScript", "Firebase", "Recharts"],
+    category: "Operations Dashboard",
+    github: "https://github.com/SheikhSahel/MedPulse",
+    live: "https://medpulse-sk.vercel.app/",
+  },
+  {
+    id: "flair-and-flame",
+    title: "Flair & Flame",
+    description: "A premium restaurant experience with reservations, menu discovery, event journeys, ordering flows, and CMS-ready content.",
+    image: "/projects/turbo-vault.svg",
+    tech: ["Next.js", "TypeScript", "Sanity", "Framer Motion"],
+    category: "Hospitality Experience",
+    github: "https://github.com/SheikhSahel/FlairAndFlame",
+    live: "https://flair-and-flame.vercel.app/",
+  },
+  {
+    id: "koto-verse",
+    title: "KotoVerse",
+    description: "A cinematic anime quote experience with discovery controls, favorites, collections, analytics, and resilient offline fallbacks.",
+    image: "/projects/sunset-drive.svg",
+    tech: ["Next.js", "React", "Framer Motion", "Recharts"],
+    category: "Cinematic Product",
+    github: "https://github.com/SheikhSahel/KotoVerse",
+    live: "https://koto-verse.vercel.app/",
+  },
+  {
+    id: "atelier-studio",
+    title: "Atelier Studio",
+    description: "A studio-grade 3D product showcase with orbit controls, guided tours, annotations, comparisons, and product detail panels.",
+    image: "/projects/midnight-run.svg",
+    tech: ["React", "TypeScript", "Three.js", "Tailwind"],
+    category: "3D Product",
+    github: "https://github.com/SheikhSahel/Atelier-Studio",
+    live: "https://atelierstudio.netlify.app/",
+  },
+  {
+    id: "cinescope",
+    title: "CineScope",
+    description: "A focused movie discovery experience built for browsing, searching, and finding the next film worth watching.",
+    image: "/projects/neon-heist.svg",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind"],
+    category: "Discovery Platform",
+    github: "https://github.com/SheikhSahel/CineScope",
+    live: "https://cinescopemoviefinder.netlify.app/",
+  },
+  {
+    id: "finsight",
+    title: "FinSight",
+    description: "A finance dashboard that turns live data into readable signals through charts, summaries, and a focused analytical interface.",
+    image: "/projects/turbo-vault.svg",
+    tech: ["Next.js", "TypeScript", "Axios", "Recharts"],
+    category: "Data Intelligence",
+    github: "https://github.com/SheikhSahel/FinSight",
+    live: "https://finsight4.netlify.app/",
+  },
+];
+
+export const STATS = [
+  { label: "Lighthouse Score", value: "96" },
+  { label: "LCP Target", value: "1.2s" },
+  { label: "CLS Target", value: "0.03" },
+  { label: "Core Focus", value: "UI/UX" },
+];
