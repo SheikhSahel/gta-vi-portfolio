@@ -7,12 +7,12 @@ export function Hero() {
     <section className="relative flex min-h-screen items-end overflow-hidden px-5 pb-8 pt-32 sm:px-10 lg:px-16">
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(10,10,12,.95)_0%,rgba(10,10,12,.45)_48%,rgba(10,10,12,.08)_100%),linear-gradient(0deg,#0a0a0c_0%,transparent_60%)]" />
       <div className="absolute right-0 top-0 -z-20 h-full w-full lg:w-[62%]">
-        <Image src="/profile.jpg" alt="Sheikh Sahel seated on a classic car in Vice City" fill priority unoptimized sizes="(max-width: 1024px) 100vw, 62vw" className="object-cover object-center grayscale-[8%] saturate-[1.15]" />
+        <Image src="/profile.jpg" alt="Sheikh Sahel seated on a classic car in Vice City" fill priority unoptimized sizes="(max-width: 1024px) 100vw, 62vw" className="translate-y-9 scale-[1.18] object-cover object-[18%_center] grayscale-[8%] saturate-[1.15] sm:translate-y-7 sm:scale-[1.1] sm:object-[28%_center] lg:translate-y-0 lg:scale-100 lg:object-center" />
       </div>
       <div className="absolute right-8 top-1/2 hidden -translate-y-1/2 rotate-90 text-[10px] tracking-[0.5em] text-white/45 lg:block">SHEIKH SAHEL // FRONT-END DEVELOPER</div>
       <div className="mx-auto w-full max-w-[1400px]">
         <div className="max-w-4xl">
-          <div className="mb-7 flex items-center gap-3 text-xs font-medium tracking-[0.25em] text-accent-amber"><MapPin size={14} /> DHAKA, BANGLADESH / REMOTE WORLDWIDE</div>
+          <div className="relative -top-2 mb-7 flex items-start gap-3 text-xs font-medium leading-5 tracking-[0.25em] text-accent-amber sm:top-0 sm:items-center"><MapPin size={14} className="mt-1 shrink-0 sm:mt-0" /><span>DHAKA, BANGLADESH /<br className="sm:hidden" /> REMOTE WORLDWIDE</span></div>
           <p className="mb-3 text-xs tracking-[0.35em] text-white/60">A DIGITAL PORTFOLIO BY</p>
           <h1 className="editorial-title text-[clamp(4.5rem,13vw,12rem)] leading-[.72] text-white">
             SHEIKH<br /><span className="text-stroke">SAHEL</span>

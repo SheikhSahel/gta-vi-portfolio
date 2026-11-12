@@ -47,8 +47,9 @@ export function Navbar() {
           <span className="grid h-9 w-9 place-items-center rounded-full border border-accent-amber/60 bg-accent-amber/10 font-display text-xl text-accent-amber transition group-hover:bg-accent-amber group-hover:text-black">
             SS
           </span>
-          <span className="hidden font-display text-lg tracking-[0.18em] text-white sm:block">
-            SHEIKH <span className="text-accent-amber">SAHEL</span>
+          <span className="font-display tracking-[0.18em] text-white">
+            <span className="text-base sm:hidden">SAHEL</span>
+            <span className="hidden text-lg sm:inline">SHEIKH <span className="text-accent-amber">SAHEL</span></span>
           </span>
         </a>
         <div className="hidden items-center gap-8 md:flex">

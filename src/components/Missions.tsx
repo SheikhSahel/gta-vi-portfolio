@@ -68,12 +68,12 @@ export function Missions() {
       </motion.div>
       <AnimatePresence>
         {selectedProject && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-[70] grid place-items-center bg-black/75 p-5 backdrop-blur-md" role="dialog" aria-modal="true" aria-labelledby="case-study-title" onClick={() => setSelectedProject(null)}>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-[70] grid place-items-center bg-black/75 p-5 backdrop-blur-md" role="dialog" aria-modal="true" aria-labelledby="case-study-title" aria-describedby="case-study-description" onClick={() => setSelectedProject(null)}>
             <motion.div initial={{ opacity: 0, y: 20, scale: .97 }} animate={{ opacity: 1, y: 0, scale: 1 }} exit={{ opacity: 0, y: 12, scale: .97 }} onClick={(event) => event.stopPropagation()} className="w-full max-w-2xl overflow-hidden rounded-2xl border border-white/15 bg-[#111116] shadow-2xl">
               <div className="h-40 bg-cover bg-center sm:h-56" style={{ backgroundImage: `linear-gradient(180deg, transparent, #111116), url(${selectedProject.image})` }} />
               <div className="p-6 sm:p-8">
                 <div className="flex items-start justify-between gap-5"><div><p className="tag inline-block">{selectedProject.category}</p><h3 id="case-study-title" className="mt-4 text-4xl text-white">{selectedProject.title}</h3></div><button type="button" onClick={() => setSelectedProject(null)} className="text-2xl text-white/50 transition hover:text-white" aria-label="Close case study">×</button></div>
-                <p className="mt-5 leading-7 text-white/60">{selectedProject.description}</p>
+                <p id="case-study-description" className="mt-5 leading-7 text-white/60">{selectedProject.description}</p>
                 <div className="mt-6 flex flex-wrap gap-2">{selectedProject.tech.map((tech) => <span key={tech} className="rounded-full border border-white/10 px-3 py-1 text-[10px] tracking-wider text-white/55">{tech}</span>)}</div>
                 <div className="mt-8 flex flex-wrap gap-3"><a href={selectedProject.live} target="_blank" rel="noreferrer" className="btn-primary">OPEN LIVE PREVIEW <ArrowUpRight size={16} /></a><a href={selectedProject.github} target="_blank" rel="noreferrer" className="btn-secondary">VIEW SOURCE <Github size={16} /></a></div>
               </div>

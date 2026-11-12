@@ -13,6 +13,24 @@ import { StatusRail } from "@/components/StatusRail";
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Sheikh Sahel",
+            jobTitle: "Frontend Web Developer",
+            url: "https://sahel-dev-portfolio.vercel.app",
+            email: "mailto:sheikhsahel513@gmail.com",
+            address: { "@type": "PostalAddress", addressCountry: "BD" },
+            sameAs: [
+              "https://github.com/SheikhSahel",
+              "https://www.facebook.com/sk.sahel.23/",
+            ],
+          }),
+        }}
+      />
       <BackgroundCanvas />
       <ScrollProgress />
       <BackToTop />
