@@ -7,7 +7,7 @@ export function Hero() {
     <section className="relative flex min-h-screen items-end overflow-hidden px-5 pb-8 pt-32 sm:px-10 lg:px-16">
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(10,10,12,.95)_0%,rgba(10,10,12,.45)_48%,rgba(10,10,12,.08)_100%),linear-gradient(0deg,#0a0a0c_0%,transparent_60%)]" />
       <div className="absolute right-0 top-0 -z-20 h-full w-full lg:w-[62%]">
-        <Image src="/profile.jpg" alt="Sheikh Sahel seated on a classic car in Vice City" fill priority unoptimized sizes="(max-width: 1024px) 100vw, 62vw" className="translate-y-9 scale-[1.18] object-cover object-[18%_center] grayscale-[8%] saturate-[1.15] sm:translate-y-7 sm:scale-[1.1] sm:object-[28%_center] lg:translate-y-0 lg:scale-100 lg:object-center" />
+        <Image src="/profile.jpg" alt="Sheikh Sahel seated on a classic car in Vice City" fill priority unoptimized sizes="(max-width: 1024px) 100vw, 62vw" className="translate-y-9 scale-[1.06] object-cover object-[48%_center] grayscale-[8%] saturate-[1.15] sm:translate-y-7 sm:scale-[1.04] sm:object-[45%_center] lg:translate-y-0 lg:scale-100 lg:object-center" />
       </div>
       <div className="absolute right-8 top-1/2 hidden -translate-y-1/2 rotate-90 text-[10px] tracking-[0.5em] text-white/45 lg:block">SHEIKH SAHEL // FRONT-END DEVELOPER</div>
       <div className="mx-auto w-full max-w-[1400px]">
