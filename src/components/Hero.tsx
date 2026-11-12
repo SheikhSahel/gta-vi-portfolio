@@ -14,7 +14,7 @@ export function Hero() {
         <div className="max-w-4xl">
           <div className="relative -top-2 mb-7 flex items-start gap-3 text-xs font-medium leading-5 tracking-[0.25em] text-accent-amber sm:top-0 sm:items-center"><MapPin size={14} className="mt-1 shrink-0 sm:mt-0" /><span>DHAKA, BANGLADESH /<br className="sm:hidden" /> REMOTE WORLDWIDE</span></div>
           <p className="mb-3 text-xs tracking-[0.35em] text-white/60">A DIGITAL PORTFOLIO BY</p>
-          <h1 className="editorial-title text-[clamp(4.5rem,13vw,12rem)] leading-[.72] text-white">
+          <h1 className="editorial-title text-[clamp(3.75rem,14vw,12rem)] leading-[.72] text-white sm:text-[clamp(4.5rem,13vw,12rem)]">
             SHEIKH<br /><span className="text-stroke">SAHEL</span>
           </h1>
           <p className="mt-8 max-w-xl text-base leading-7 text-white/65 sm:text-lg">{SITE.subtitle} With a sharp eye for interaction, performance, and the details users feel.</p>
